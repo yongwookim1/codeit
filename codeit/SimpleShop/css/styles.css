@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica";
+}
+
+#navbar {
+  background-color: white;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+}
+
+#navbar #logo {
+  padding-left: 30px;
+  line-height: 60px;
+}
+
+#navbar #logo img {
+  vertical-align: middle;
+}
+
+#navbar #menu {
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding-right: 30px;
+}
+
+#navbar #menu li {
+  float: left;
+  line-height: 60px;
+}
+
+#navbar #menu li a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  font-weight: 700;
+  margin: 0px 0px 0px 0px;
+  padding: 15px 15px;
+}
+
+#navbar #menu li a:hover {
+  background-color: #eeeeee;
+}
+
+#hero-header {
+  height: 450px;
+  background-image: url("../images/hero_header.jpg");
+  background-size: cover;
+}
+
+#npd {
+  font-size: 24px;
+  color: #545454;
+  font-weight: 700;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.products-container {
+  width: 735px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.products {
+  width: 225px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 80px;
+}
+
+.products h1 {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.products p {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 4px;
+}
+
+#footer {
+  clear: left;
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+#footer a:nth-child(2) {
+  margin-left: 20px;
+  margin-right: 20px;
+}
